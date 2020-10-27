@@ -1,0 +1,964 @@
+﻿Log file open, 10/27/20 08:15:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: dongzhanToUE4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.534776
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -EpicPortal -epicusername=Lilia921118 -epicuserid=8f4152f68a7c4ab8995455547e1271ee -epiclocale=zh-CN
+LogInit: Base Directory: D:/ue4/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.27-00.15.49:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:312][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:314][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.27-00.15.49:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.27-00.15.49:315][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.27-00.15.49:315][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.27-00.15.49:315][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.27-00.15.49:426][  0]LogHAL: Display: Platform has ~ 8 GB [8477556736 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.27-00.15.49:426][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.27-00.15.49:426][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.27-00.15.49:426][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Scalability.ini]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.27-00.15.49:427][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.27-00.15.49:439][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.27-00.15.49:439][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.27-00.15.49:439][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/jinandongzhan/dongzhanToUE4/Saved/Config/Windows/Engine.ini]
+[2020.10.27-00.15.49:439][  0]LogInit: Computer: DESKTOP-K1JM11J
+[2020.10.27-00.15.49:439][  0]LogInit: User: lenovo
+[2020.10.27-00.15.49:439][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.27-00.15.49:439][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.27-00.15.49:439][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.10.27-00.15.49:439][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.27-00.15.49:439][  0]LogMemory: Process Physical Memory: 100.54 MB used, 100.54 MB peak
+[2020.10.27-00.15.49:439][  0]LogMemory: Process Virtual Memory: 88.18 MB used, 88.18 MB peak
+[2020.10.27-00.15.49:439][  0]LogMemory: Physical Memory: 6558.23 MB used,  1526.60 MB free, 8084.83 MB total
+[2020.10.27-00.15.49:439][  0]LogMemory: Virtual Memory: 4652.39 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.10.27-00.15.49:445][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.27-00.15.50:072][  0]LogInit: Using OS detected language (zh-CN).
+[2020.10.27-00.15.50:072][  0]LogInit: Using OS detected locale (zh-CN).
+[2020.10.27-00.15.50:073][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2020.10.27-00.15.50:745][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.10.27-00.15.50:746][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.10.27-00.15.50:746][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2020.10.27-00.15.50:746][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.10.27-00.15.50:771][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.27-00.15.51:048][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.27-00.15.51:048][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.27-00.15.51:368][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.27-00.15.51:368][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.27-00.15.51:451][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.10.27-00.15.51:451][  0]LogD3D11RHI:       128/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.27-00.15.51:454][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.27-00.15.51:454][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.27-00.15.51:454][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.27-00.15.51:460][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.27-00.15.51:460][  0]LogD3D11RHI:     GPU DeviceId: 0x3e92 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.27-00.15.51:460][  0]LogWindows: EnumDisplayDevices:
+[2020.10.27-00.15.51:460][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.10.27-00.15.51:461][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.27-00.15.51:461][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.27-00.15.51:462][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.10.27-00.15.51:462][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 630
+[2020.10.27-00.15.51:462][  0]LogD3D11RHI:   Driver Version: 27.20.100.8190 (internal:27.20.100.8190, unified:27.20.100.8190)
+[2020.10.27-00.15.51:462][  0]LogD3D11RHI:      Driver Date: 5-5-2020
+[2020.10.27-00.15.51:462][  0]LogRHI: Texture pool is 1504 MB (70% of 2149 MB)
+[2020.10.27-00.15.51:588][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.10.27-00.15.51:589][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.27-00.15.51:614][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.10.27-00.15.51:999][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.10.27-00.15.52:016][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.10.27-00.15.52:022][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.10.27-00.15.52:028][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.10.27-00.15.52:038][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.10.27-00.15.52:048][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.10.27-00.15.52:054][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.27-00.15.52:061][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.10.27-00.15.52:064][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.10.27-00.15.52:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.10.27-00.15.52:124][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.10.27-00.15.52:133][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.10.27-00.15.52:222][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.10.27-00.15.52:222][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.10.27-00.15.52:242][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.10.27-00.15.52:242][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.10.27-00.15.52:255][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.10.27-00.15.52:262][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.27-00.15.52:267][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.10.27-00.15.52:284][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.10.27-00.15.52:311][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.10.27-00.15.52:311][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.10.27-00.15.52:311][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.27-00.15.52:352][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.27-00.15.52:604][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../jinandongzhan/dongzhanToUE4/Intermediate/Shaders/WorkingDirectory/17188/).
+[2020.10.27-00.15.52:605][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/54AE940543039B7844BE4E9D6227E8AC/'.
+[2020.10.27-00.15.52:613][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.27-00.15.52:613][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.27-00.15.52:613][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.27-00.15.53:523][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.27-00.15.53:619][  0]LogDerivedDataCache: Loaded boot cache 0.10s 73MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.10.27-00.15.53:619][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.10.27-00.15.53:619][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../jinandongzhan/dongzhanToUE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.27-00.15.53:619][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.27-00.15.53:619][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../jinandongzhan/dongzhanToUE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.27-00.15.53:619][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.27-00.15.53:641][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.27-00.15.53:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.27-00.15.53:641][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.27-00.15.53:642][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.27-00.15.53:643][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.27-00.15.53:643][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.27-00.15.53:659][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.27-00.15.53:662][  0]LogSlate: Using FreeType 2.6.0
+[2020.10.27-00.15.53:672][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.27-00.15.54:011][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.10.27-00.15.54:933][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.27-00.15.55:758][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.27-00.15.55:758][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.27-00.15.55:758][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.27-00.15.55:758][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.27-00.15.55:758][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.27-00.15.55:965][  0]LogNetVersion: dongzhanToUE4 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 420808155)
+[2020.10.27-00.15.56:965][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 2 prioritized culture(s) in 0.112855 seconds
+[2020.10.27-00.15.56:971][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.10.27-00.15.56:972][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.10.27-00.15.56:972][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.27-00.16.01:267][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.27-00.16.01:283][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.27-00.16.01:833][  0]SourceControl: 源码管理已禁用
+[2020.10.27-00.16.01:840][  0]SourceControl: 源码管理已禁用
+[2020.10.27-00.16.01:868][  0]SourceControl: 源码管理已禁用
+[2020.10.27-00.16.01:879][  0]SourceControl: 源码管理已禁用
+[2020.10.27-00.16.01:901][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.27-00.16.01:902][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.27-00.16.02:482][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.27-00.16.02:824][  0]LogOcInput: OculusInput pre-init called
+[2020.10.27-00.16.02:848][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.27-00.16.02:848][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.27-00.16.03:111][  0]LogEngine: Initializing Engine...
+[2020.10.27-00.16.03:114][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.27-00.16.03:118][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.10.27-00.16.03:402][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.27-00.16.03:490][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.27-00.16.03:628][  0]LogInit: XAudio2 using '扬声器 (2- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.27-00.16.03:677][  0]LogInit: FAudioDevice initialized.
+[2020.10.27-00.16.03:687][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.27-00.16.03:749][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.10.27-00.16.03:752][  0]LogInit: Texture streaming: Enabled
+[2020.10.27-00.16.03:800][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.27-00.16.03:800][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.27-00.16.03:812][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.27-00.16.03:918][  0]LogInit: Transaction tracking system initialized
+[2020.10.27-00.16.04:188][  0]BlueprintLog: New page: 编辑器加载
+[2020.10.27-00.16.04:689][  0]LocalizationService: 本地化服务已禁用
+[2020.10.27-00.16.05:018][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.27-00.16.05:020][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.27-00.16.05:556][  0]LogFileCache: Scanning file cache for directory 'D:/jinandongzhan/dongzhanToUE4/Content/' took 0.00s
+[2020.10.27-00.16.05:556][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.27-00.16.05:556][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.27-00.16.07:022][  0]SourceControl: 源码管理已禁用
+[2020.10.27-00.16.07:022][  0]Cmd: MAP LOAD FILE="../../../../../jinandongzhan/dongzhanToUE4/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.27-00.16.07:022][  0]LightingResults: New page: 光照构建
+[2020.10.27-00.16.07:040][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.27-00.16.07:040][  0]MapCheck: New page: 地图检测
+[2020.10.27-00.16.07:040][  0]LightingResults: New page: 光照构建
+[2020.10.27-00.16.07:063][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.10.27-00.16.08:708][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.27-00.16.08:835][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.27-00.16.08:873][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.10.27-00.16.08:873][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.27-00.16.08:873][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.084毫秒。
+[2020.10.27-00.16.08:873][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.851
+[2020.10.27-00.16.09:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.27-00.16.09:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.27-00.16.09:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.27-00.16.09:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.27-00.16.09:617][  0]LogCollectionManager: Loaded 0 collections in 0.000964 seconds
+[2020.10.27-00.16.09:773][  0]LogFileCache: Scanning file cache for directory 'D:/jinandongzhan/dongzhanToUE4/Saved/Collections/' took 0.00s
+[2020.10.27-00.16.09:773][  0]LogFileCache: Scanning file cache for directory 'D:/jinandongzhan/dongzhanToUE4/Content/Developers/lenovo/Collections/' took 0.00s
+[2020.10.27-00.16.09:773][  0]LogFileCache: Scanning file cache for directory 'D:/jinandongzhan/dongzhanToUE4/Content/Collections/' took 0.00s
+[2020.10.27-00.16.09:773][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.10.27-00.16.09:783][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2929 classes and 711 folders.
+[2020.10.27-00.16.09:921][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.27-00.16.10:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.27-00.16.10:602][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.10.27-00.16.10:996][  0]LogSlate: Took 0.015688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.27-00.16.11:028][  0]LogSlate: Took 0.031059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.10.27-00.16.11:036][  0]LogSlate: Took 0.007824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.27-00.16.11:113][  0]LogSlate: Took 0.004548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.27-00.16.11:602][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.27-00.16.12:752][  0]LogSlate: Took 0.011777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.27-00.16.12:931][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.27-00.16.12:931][  0]LogLoad: (Engine Initialization) Total time: 46.87 seconds
+[2020.10.27-00.16.12:931][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.27-00.16.13:469][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.27-00.16.16:967][ 19]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2020.10.27-00.16.17:431][ 23]LogAssetRegistry: Asset discovery search completed in 23.4213 seconds
+[2020.10.27-00.16.17:466][ 23]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2020.10.27-00.22.45:354][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.22.58:200][296]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.27-00.22.58:252][296]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../jinandongzhan/second floor/zhitiR.fbx)
+[2020.10.27-00.22.58:413][296]LogFbx: Loading FBX Scene from ../../../../../jinandongzhan/second floor/zhitiR.fbx
+[2020.10.27-00.22.58:459][296]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.27-00.23.08:658][296]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.10.27-00.23.09:524][296]LogMaterial: Display: Missing cached shader map for material pasted__pasted__zhiti, compiling. 
+[2020.10.27-00.23.09:641][296]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.10.27-00.23.09:641][296]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.10.27-00.23.09:641][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3606
+[2020.10.27-00.23.09:782][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3605
+[2020.10.27-00.23.09:783][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3611
+[2020.10.27-00.23.09:783][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3610
+[2020.10.27-00.23.09:784][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3609
+[2020.10.27-00.23.09:784][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3608
+[2020.10.27-00.23.09:785][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3607
+[2020.10.27-00.23.09:786][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3621
+[2020.10.27-00.23.09:786][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3620
+[2020.10.27-00.23.09:787][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3614
+[2020.10.27-00.23.09:788][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3613
+[2020.10.27-00.23.09:788][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3612
+[2020.10.27-00.23.09:790][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3604
+[2020.10.27-00.23.09:792][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3601
+[2020.10.27-00.23.09:793][296]LogFbx: Display: Triangulating static mesh pasted__pasted__polySurface2916
+[2020.10.27-00.23.09:793][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3616
+[2020.10.27-00.23.09:794][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3615
+[2020.10.27-00.23.09:796][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3619
+[2020.10.27-00.23.09:796][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3618
+[2020.10.27-00.23.09:796][296]LogFbx: Display: Triangulating static mesh pasted__polySurface3617
+[2020.10.27-00.23.09:959][296]LogStaticMesh: 正在构建静态网格体zhitiR……
+[2020.10.27-00.23.10:047][296]LogStaticMesh: Built static mesh [0.09s] /Game/zhitiR.zhitiR
+[2020.10.27-00.23.10:281][296]FBXImport: Warning: 此FBX场景中未发现平滑组信息。导出文件前必须在FBX导出器插件中启用“导出平滑组（Export Smoothing Groups）”选项。对不支持平滑组的工具而言，导出时FBX导出器仍将生成正确的平滑数据，从而在导入时推断出正确的顶点法线。 
+[2020.10.27-00.23.13:293][314]LogSlate: Window '消息日志' being destroyed
+[2020.10.27-00.23.13:320][314]LogSlate: Window '消息日志' being destroyed
+[2020.10.27-00.23.16:101][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.10.27-00.23.24:452][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.23.35:085][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.23.35:282][640]LogActorFactory: Actor Factory created zhitiR
+[2020.10.27-00.23.38:694][686]LogActorFactory: Actor Factory created zhitiR
+[2020.10.27-00.23.48:291][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.24.30:599][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR2)
+[2020.10.27-00.24.41:859][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR2)
+[2020.10.27-00.24.43:853][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.25.10:021][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR4)
+[2020.10.27-00.25.16:907][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.25.33:766][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR3)
+[2020.10.27-00.25.41:579][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.26.00:886][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (second_floor)
+[2020.10.27-00.26.02:156][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR3)
+[2020.10.27-00.26.06:749][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.26.13:348][795]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={DAB0A0F2-41AC-0B57-928A-7D9C3C635198}
+[2020.10.27-00.26.42:098][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingR3)
+[2020.10.27-00.26.43:894][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (second_floor)
+[2020.10.27-00.26.44:502][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR5)
+[2020.10.27-00.26.48:948][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.27.03:389][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.27.11:895][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boli)
+[2020.10.27-00.27.12:824][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (second_floor)
+[2020.10.27-00.27.13:580][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boli)
+[2020.10.27-00.27.14:731][632]Cmd: DELETE
+[2020.10.27-00.27.14:731][632]Cmd: ACTOR DELETE
+[2020.10.27-00.27.15:005][632]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.27-00.27.15:068][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.10.27-00.27.15:068][632]LogEditorActor: Deleted 1 Actors (0.113 secs)
+[2020.10.27-00.27.17:660][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR7)
+[2020.10.27-00.27.27:980][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.27.33:986][888]Cmd: DELETE
+[2020.10.27-00.27.33:987][888]Cmd: ACTOR DELETE
+[2020.10.27-00.27.33:990][888]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.27-00.27.34:021][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.10.27-00.27.34:022][888]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2020.10.27-00.27.34:788][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR8)
+[2020.10.27-00.27.58:069][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.28.18:304][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.28.36:135][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.28.48:653][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.29.03:384][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.29.03:583][ 60]LogActorFactory: Actor Factory created danpianboli
+[2020.10.27-00.29.04:846][ 76]LogActorFactory: Actor Factory created danpianboli
+[2020.10.27-00.29.07:867][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.29.20:788][278]Cmd: TRANSACTION UNDO
+[2020.10.27-00.29.20:792][278]LogEditorTransaction: Undo 移动Actor
+[2020.10.27-00.29.21:731][326]Cmd: TRANSACTION UNDO
+[2020.10.27-00.29.21:731][326]LogEditorTransaction: Undo 设置旋转
+[2020.10.27-00.29.23:584][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.29.52:984][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (danpianboli)
+[2020.10.27-00.29.55:766][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR12)
+[2020.10.27-00.30.01:408][843]Cmd: TRANSACTION UNDO
+[2020.10.27-00.30.01:408][843]LogEditorTransaction: Undo 移动Actor
+[2020.10.27-00.30.04:362][928]Cmd: DELETE
+[2020.10.27-00.30.04:362][928]Cmd: ACTOR DELETE
+[2020.10.27-00.30.04:366][928]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.27-00.30.04:434][928]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.10.27-00.30.04:434][928]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2020.10.27-00.30.05:306][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (zhitiR12)
+[2020.10.27-00.30.09:056][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.30.40:046][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.27-00.30.40:773][438]LogSavePackage: Moving '../../../../../jinandongzhan/dongzhanToUE4/Saved/Minimal_Default_Auto1AB0FAE9B48DB970BB80057A74E283A45.tmp' to '../../../../../jinandongzhan/dongzhanToUE4/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2020.10.27-00.30.40:791][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.765
+[2020.10.27-00.30.40:791][438]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.765
+[2020.10.27-00.30.40:793][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/zhitiR] ([1] browsable assets)...
+[2020.10.27-00.30.40:820][438]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/zhitiR.zhitiR]
+[2020.10.27-00.30.40:820][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/zhitiR]
+[2020.10.27-00.30.40:820][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zhitiR" FILE="../../../../../jinandongzhan/dongzhanToUE4/Saved/Autosaves/Game/zhitiR_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.10.27-00.30.40:907][438]LogSavePackage: Moving '../../../../../jinandongzhan/dongzhanToUE4/Saved/zhitiR_Auto1F6C82E64408772D303957B98E602FAE8.tmp' to '../../../../../jinandongzhan/dongzhanToUE4/Saved/Autosaves/Game/zhitiR_Auto1.uasset'
+[2020.10.27-00.30.40:908][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/pasted__pasted__zhiti] ([1] browsable assets)...
+[2020.10.27-00.30.40:957][438]OBJ SavePackage:     Rendered thumbnail for [Material /Game/pasted__pasted__zhiti.pasted__pasted__zhiti]
+[2020.10.27-00.30.40:957][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/pasted__pasted__zhiti]
+[2020.10.27-00.30.40:957][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pasted__pasted__zhiti" FILE="../../../../../jinandongzhan/dongzhanToUE4/Saved/Autosaves/Game/pasted__pasted__zhiti_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.10.27-00.30.40:994][438]LogSavePackage: Moving '../../../../../jinandongzhan/dongzhanToUE4/Saved/pasted__pasted__zhiti_Auto1B155750F4D5A1CE7A11A1681AB573333.tmp' to '../../../../../jinandongzhan/dongzhanToUE4/Saved/Autosaves/Game/pasted__pasted__zhiti_Auto1.uasset'
+[2020.10.27-00.30.40:995][438]LogFileHelpers: Auto-saving content packages took 0.202
+[2020.10.27-00.30.54:292][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.31.03:101][618]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../jinandongzhan/B1/B1.fbx)
+[2020.10.27-00.31.03:114][618]LogFbx: Loading FBX Scene from ../../../../../jinandongzhan/B1/B1.fbx
+[2020.10.27-00.31.03:246][618]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.27-00.31.05:288][618]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.10.27-00.31.05:313][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3155
+[2020.10.27-00.31.05:318][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3156
+[2020.10.27-00.31.05:324][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3159
+[2020.10.27-00.31.05:330][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3158
+[2020.10.27-00.31.05:335][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3154
+[2020.10.27-00.31.05:340][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3157
+[2020.10.27-00.31.05:345][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3150
+[2020.10.27-00.31.05:351][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3151
+[2020.10.27-00.31.05:355][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3160
+[2020.10.27-00.31.05:361][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3161
+[2020.10.27-00.31.05:372][618]LogMaterial: Display: Missing cached shader map for material pasted__pasted__lambert38, compiling. 
+[2020.10.27-00.31.05:390][618]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.10.27-00.31.05:390][618]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.10.27-00.31.05:390][618]LogMaterial: Display: Missing cached shader map for material pasted__pasted__lambert3_white, compiling. 
+[2020.10.27-00.31.05:409][618]LogMaterial: Display: Missing cached shader map for material pasted__pasted__lambert4_orange, compiling. 
+[2020.10.27-00.31.05:431][618]LogMaterial: Display: Missing cached shader map for material pasted__pasted__typeBlinn2, compiling. 
+[2020.10.27-00.31.05:442][618]LogFbx: Display: Triangulating static mesh pasted__group529
+[2020.10.27-00.31.05:826][618]LogMaterial: Display: Missing cached shader map for material pasted__qiangmian, compiling. 
+[2020.10.27-00.31.05:838][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube392
+[2020.10.27-00.31.05:854][618]LogMaterial: Display: Missing cached shader map for material pasted__lambert20, compiling. 
+[2020.10.27-00.31.05:884][618]LogMaterial: Display: Missing cached shader map for material pasted__menboli, compiling. 
+[2020.10.27-00.31.05:896][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube222
+[2020.10.27-00.31.05:910][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube223
+[2020.10.27-00.31.05:911][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube224
+[2020.10.27-00.31.05:912][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube225
+[2020.10.27-00.31.05:912][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube226
+[2020.10.27-00.31.05:925][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube227
+[2020.10.27-00.31.05:926][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube228
+[2020.10.27-00.31.05:926][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube229
+[2020.10.27-00.31.05:927][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube230
+[2020.10.27-00.31.05:928][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube231
+[2020.10.27-00.31.05:928][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube232
+[2020.10.27-00.31.05:929][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube233
+[2020.10.27-00.31.05:930][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube234
+[2020.10.27-00.31.05:930][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube235
+[2020.10.27-00.31.05:932][618]LogFbx: Display: Triangulating static mesh pasted__polySurface3162
+[2020.10.27-00.31.06:366][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube236
+[2020.10.27-00.31.06:367][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube237
+[2020.10.27-00.31.06:380][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube238
+[2020.10.27-00.31.06:384][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube239
+[2020.10.27-00.31.06:396][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube240
+[2020.10.27-00.31.06:397][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube241
+[2020.10.27-00.31.06:397][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube242
+[2020.10.27-00.31.06:398][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube243
+[2020.10.27-00.31.06:411][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube244
+[2020.10.27-00.31.06:411][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube245
+[2020.10.27-00.31.06:412][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube246
+[2020.10.27-00.31.06:412][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube247
+[2020.10.27-00.31.06:413][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube393
+[2020.10.27-00.31.06:421][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube394
+[2020.10.27-00.31.06:425][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube248
+[2020.10.27-00.31.06:426][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube395
+[2020.10.27-00.31.06:430][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube249
+[2020.10.27-00.31.06:431][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube250
+[2020.10.27-00.31.06:443][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube251
+[2020.10.27-00.31.06:444][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube252
+[2020.10.27-00.31.06:444][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube253
+[2020.10.27-00.31.06:445][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube254
+[2020.10.27-00.31.06:446][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube255
+[2020.10.27-00.31.06:446][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube256
+[2020.10.27-00.31.06:447][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube257
+[2020.10.27-00.31.06:447][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube258
+[2020.10.27-00.31.06:448][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube259
+[2020.10.27-00.31.06:448][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube260
+[2020.10.27-00.31.06:461][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube261
+[2020.10.27-00.31.06:462][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube262
+[2020.10.27-00.31.06:474][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube263
+[2020.10.27-00.31.06:475][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube264
+[2020.10.27-00.31.06:476][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube265
+[2020.10.27-00.31.06:488][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube266
+[2020.10.27-00.31.06:489][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube396
+[2020.10.27-00.31.06:493][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube267
+[2020.10.27-00.31.06:494][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube268
+[2020.10.27-00.31.06:495][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube397
+[2020.10.27-00.31.06:503][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube398
+[2020.10.27-00.31.06:506][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube269
+[2020.10.27-00.31.06:507][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube270
+[2020.10.27-00.31.06:508][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube399
+[2020.10.27-00.31.06:515][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube400
+[2020.10.27-00.31.06:524][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube271
+[2020.10.27-00.31.06:524][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube272
+[2020.10.27-00.31.06:525][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube273
+[2020.10.27-00.31.06:525][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube274
+[2020.10.27-00.31.06:526][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube275
+[2020.10.27-00.31.06:527][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube276
+[2020.10.27-00.31.06:527][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube277
+[2020.10.27-00.31.06:528][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube278
+[2020.10.27-00.31.06:528][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube279
+[2020.10.27-00.31.06:529][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube280
+[2020.10.27-00.31.06:529][618]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube38
+[2020.10.27-00.31.06:536][618]LogFbx: Display: Triangulating static mesh pasted__group540
+[2020.10.27-00.31.06:893][618]LogFbx: Display: Triangulating static mesh pasted__group541
+[2020.10.27-00.31.07:250][618]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 134
+[2020.10.27-00.31.07:250][618]LogFbx: Display: Triangulating static mesh pasted__group542
+[2020.10.27-00.31.07:620][618]LogFbx: Display: Triangulating static mesh pasted__group543
+[2020.10.27-00.31.08:012][618]LogStaticMesh: 正在构建静态网格体B1……
+[2020.10.27-00.31.08:265][618]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 124
+[2020.10.27-00.31.08:265][618]LogStaticMesh: Built static mesh [0.25s] /Game/B1.B1
+[2020.10.27-00.31.08:281][618]LogStaticMesh: Warning: B1拥有退化的切线基础，这会引起着色错误。考虑启用网格体的构建设置中的“重新计算切线”选项。 
+[2020.10.27-00.31.08:281][618]LogStaticMesh: Warning: B1 拥有一些近零的法线，其可能诱发问题。（容差为 1E-4）
+[2020.10.27-00.31.08:281][618]LogStaticMesh: Warning: B1 拥有一些近零的切线，其可能诱发问题。（容差为 1E-4）
+[2020.10.27-00.31.08:281][618]LogStaticMesh: Warning: B1 拥有一些近零的副法线，其可能诱发问题。（容差为 1E-4）
+[2020.10.27-00.31.08:312][618]FBXImport: Warning: 此FBX场景中未发现平滑组信息。导出文件前必须在FBX导出器插件中启用“导出平滑组（Export Smoothing Groups）”选项。对不支持平滑组的工具而言，导出时FBX导出器仍将生成正确的平滑数据，从而在导入时推断出正确的顶点法线。 
+[2020.10.27-00.31.08:312][618]FBXImport: Warning: B1拥有退化的切线基础，这会引起着色错误。考虑启用网格体的构建设置中的“重新计算切线”选项。  
+[2020.10.27-00.31.08:312][618]FBXImport: Warning: B1 拥有一些近零的法线，其可能诱发问题。（容差为 1E-4） 
+[2020.10.27-00.31.08:312][618]FBXImport: Warning: B1 拥有一些近零的切线，其可能诱发问题。（容差为 1E-4） 
+[2020.10.27-00.31.08:312][618]FBXImport: Warning: B1 拥有一些近零的副法线，其可能诱发问题。（容差为 1E-4） 
+[2020.10.27-00.31.08:506][620]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 114
+[2020.10.27-00.31.13:064][672]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 104
+[2020.10.27-00.31.15:219][696]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 94
+[2020.10.27-00.31.15:711][701]LogSlate: Window '消息日志' being destroyed
+[2020.10.27-00.31.15:745][701]LogSlate: Window '消息日志' being destroyed
+[2020.10.27-00.31.18:270][722]LogActorFactory: Actor Factory created B1
+[2020.10.27-00.31.19:629][737]LogActorFactory: Actor Factory created B1
+[2020.10.27-00.31.20:682][748]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 84
+[2020.10.27-00.31.21:575][757]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 74
+[2020.10.27-00.31.22:206][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.31.27:347][821]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2020.10.27-00.31.28:525][834]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 54
+[2020.10.27-00.31.33:519][885]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
+[2020.10.27-00.31.34:696][893]Cmd: DELETE
+[2020.10.27-00.31.34:696][893]Cmd: ACTOR DELETE
+[2020.10.27-00.31.34:704][893]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.27-00.31.34:805][893]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.10.27-00.31.34:806][893]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2020.10.27-00.31.37:260][920]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2020.10.27-00.31.38:879][937]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.10.27-00.31.43:907][989]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.10.27-00.31.49:432][ 42]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.10.27-00.31.53:881][ 85]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.10.27-00.36.32:529][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.27-00.36.36:641][552]LogSlate: Window '消息' being destroyed
+[2020.10.27-00.36.36:652][552]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../jinandongzhan/B1/B1.fbx)
+[2020.10.27-00.36.36:715][552]LogEditorFactories: Performing atomic reimport of [D:/jinandongzhan/B1/B1.fbx]
+[2020.10.27-00.36.36:727][552]LogFbx: Loading FBX Scene from D:/jinandongzhan/B1/B1.fbx
+[2020.10.27-00.36.36:852][552]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.27-00.36.36:891][552]LogFbx: Display: Triangulating static mesh pasted__polySurface3150
+[2020.10.27-00.36.36:897][552]LogFbx: Display: Triangulating static mesh pasted__polySurface3151
+[2020.10.27-00.36.36:901][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube392
+[2020.10.27-00.36.36:909][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube222
+[2020.10.27-00.36.36:920][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube223
+[2020.10.27-00.36.36:921][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube224
+[2020.10.27-00.36.36:921][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube225
+[2020.10.27-00.36.36:922][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube226
+[2020.10.27-00.36.36:933][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube227
+[2020.10.27-00.36.36:934][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube228
+[2020.10.27-00.36.36:934][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube229
+[2020.10.27-00.36.36:935][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube230
+[2020.10.27-00.36.36:936][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube231
+[2020.10.27-00.36.36:936][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube232
+[2020.10.27-00.36.36:937][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube233
+[2020.10.27-00.36.36:937][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube234
+[2020.10.27-00.36.36:938][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube235
+[2020.10.27-00.36.36:939][552]LogFbx: Display: Triangulating static mesh pasted__polySurface3162
+[2020.10.27-00.36.37:364][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube236
+[2020.10.27-00.36.37:364][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube237
+[2020.10.27-00.36.37:376][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube238
+[2020.10.27-00.36.37:379][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube239
+[2020.10.27-00.36.37:391][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube240
+[2020.10.27-00.36.37:391][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube241
+[2020.10.27-00.36.37:392][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube242
+[2020.10.27-00.36.37:393][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube243
+[2020.10.27-00.36.37:404][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube244
+[2020.10.27-00.36.37:405][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube245
+[2020.10.27-00.36.37:405][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube246
+[2020.10.27-00.36.37:406][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube247
+[2020.10.27-00.36.37:406][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube393
+[2020.10.27-00.36.37:415][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube394
+[2020.10.27-00.36.37:418][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube248
+[2020.10.27-00.36.37:418][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube395
+[2020.10.27-00.36.37:422][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube249
+[2020.10.27-00.36.37:422][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube250
+[2020.10.27-00.36.37:434][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube251
+[2020.10.27-00.36.37:435][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube252
+[2020.10.27-00.36.37:435][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube253
+[2020.10.27-00.36.37:436][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube254
+[2020.10.27-00.36.37:436][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube255
+[2020.10.27-00.36.37:437][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube256
+[2020.10.27-00.36.37:437][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube257
+[2020.10.27-00.36.37:438][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube258
+[2020.10.27-00.36.37:438][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube259
+[2020.10.27-00.36.37:439][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube260
+[2020.10.27-00.36.37:450][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube261
+[2020.10.27-00.36.37:451][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube262
+[2020.10.27-00.36.37:463][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube263
+[2020.10.27-00.36.37:464][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube264
+[2020.10.27-00.36.37:464][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube265
+[2020.10.27-00.36.37:476][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube266
+[2020.10.27-00.36.37:476][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube396
+[2020.10.27-00.36.37:480][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube267
+[2020.10.27-00.36.37:480][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube268
+[2020.10.27-00.36.37:481][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube397
+[2020.10.27-00.36.37:489][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube398
+[2020.10.27-00.36.37:492][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube269
+[2020.10.27-00.36.37:493][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube270
+[2020.10.27-00.36.37:493][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube399
+[2020.10.27-00.36.37:501][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pCube400
+[2020.10.27-00.36.37:509][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube271
+[2020.10.27-00.36.37:510][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube272
+[2020.10.27-00.36.37:510][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube273
+[2020.10.27-00.36.37:511][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube274
+[2020.10.27-00.36.37:511][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube275
+[2020.10.27-00.36.37:512][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube276
+[2020.10.27-00.36.37:512][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube277
+[2020.10.27-00.36.37:513][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube278
+[2020.10.27-00.36.37:513][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube279
+[2020.10.27-00.36.37:514][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pCube280
+[2020.10.27-00.36.37:514][552]LogFbx: Display: Triangulating static mesh pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube38
+[2020.10.27-00.36.37:521][552]LogFbx: Display: Triangulating static mesh pasted__group540
+[2020.10.27-00.36.37:874][552]LogFbx: Display: Triangulating static mesh pasted__group541
+[2020.10.27-00.36.38:219][552]LogFbx: Display: Triangulating static mesh pasted__group542
+[2020.10.27-00.36.38:564][552]LogFbx: Display: Triangulating static mesh pasted__group543
+[2020.10.27-00.36.38:911][552]LogFbx: Display: Triangulating static mesh pasted__group544
+[2020.10.27-00.36.39:399][552]LogStaticMesh: 正在构建静态网格体B1……
+[2020.10.27-00.36.40:611][552]LogStaticMesh: Built static mesh [1.21s] /Game/B1.B1
+[2020.10.27-00.36.40:857][552]LogStaticMesh: Warning: B1拥有退化的切线基础，这会引起着色错误。考虑启用网格体的构建设置中的“重新计算切线”选项。 
+[2020.10.27-00.36.40:857][552]LogStaticMesh: Warning: B1 拥有一些近零的法线，其可能诱发问题。（容差为 1E-4）
+[2020.10.27-00.36.40:857][552]LogStaticMesh: Warning: B1 拥有一些近零的切线，其可能诱发问题。（容差为 1E-4）
+[2020.10.27-00.36.40:858][552]LogStaticMesh: Warning: B1 拥有一些近零的副法线，其可能诱发问题。（容差为 1E-4）
+[2020.10.27-00.36.41:103][552]LogEditorFactories: -- imported successfully
+[2020.10.27-00.36.41:116][552]FBXImport: Warning: 此FBX场景中未发现平滑组信息。导出文件前必须在FBX导出器插件中启用“导出平滑组（Export Smoothing Groups）”选项。对不支持平滑组的工具而言，导出时FBX导出器仍将生成正确的平滑数据，从而在导入时推断出正确的顶点法线。 
+[2020.10.27-00.36.41:116][552]FBXImport: Warning: B1拥有退化的切线基础，这会引起着色错误。考虑启用网格体的构建设置中的“重新计算切线”选项。  
+[2020.10.27-00.36.41:116][552]FBXImport: Warning: B1 拥有一些近零的法线，其可能诱发问题。（容差为 1E-4） 
+[2020.10.27-00.36.41:116][552]FBXImport: Warning: B1 拥有一些近零的切线，其可能诱发问题。（容差为 1E-4） 
+[2020.10.27-00.36.41:116][552]FBXImport: Warning: B1 拥有一些近零的副法线，其可能诱发问题。（容差为 1E-4） 
+[2020.10.27-00.36.43:541][558]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.598 s
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: 
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: Ensure condition failed: Y != 0 [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMath.cpp] [Line: 105]
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: FMath::FMod(X=283809021952.000000, Y=0.000000) : Y is zero, this is invalid and would result in NaN!
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: Stack: 
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff88a380363 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff889e660b5 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8770c7ac0 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8770124bf UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff877077701 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff87708ea20 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8770c0b20 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8770c367e UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8770dff1c UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff877073455 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff877072837 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff876b798ec UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff877002449 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff876fde4c1 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff889e34e4a UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff889e351f3 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff891520021 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8915285b4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff88a289f5f UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff88a2804b1 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8e4f27c24 KERNEL32.DLL!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: [Callstack] 0x00007ff8e522cea1 ntdll.dll!UnknownFunction []
+[2020.10.27-00.36.43:541][558]LogOutputDevice: Error: 
+[2020.10.27-00.36.43:541][558]LogStats:                SubmitErrorReport -  0.000 s
+[2020.10.27-00.36.48:840][558]LogStats:                    SendNewReport -  5.298 s
+[2020.10.27-00.36.48:840][558]LogStats:             FDebug::EnsureFailed -  6.903 s
+[2020.10.27-00.36.57:177][671]LogActorFactory: Actor Factory created B1
+[2020.10.27-00.36.57:248][672]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2020.10.27-00.36.57:248][672]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: 
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/Math/Matrix.cpp] [Line: 8]
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: Stack: 
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff88a38fce6 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff889f81b28 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff876b02655 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff877105dba UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff8770cf3e9 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff8771032f3 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff8770dfc88 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff877073455 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff877072837 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff876b798ec UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff877002449 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff876fde4c1 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff889e34e4a UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff889e351f3 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff891520021 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff8915285b4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff88a289f5f UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff88a2804b1 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff8e4f27c24 KERNEL32.DLL!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: [Callstack] 0x00007ff8e522cea1 ntdll.dll!UnknownFunction []
+[2020.10.27-00.36.57:248][672]LogOutputDevice: Error: 
+[2020.10.27-00.36.57:248][672]LogStats:                SubmitErrorReport -  0.000 s
